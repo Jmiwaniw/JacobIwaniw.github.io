@@ -17,3 +17,10 @@
 @media(max-width:1000px){.home-hero{gap:42px}}
 @media(max-width:800px){.home-hero{grid-template-columns:1fr;gap:44px}.hero-portrait{justify-self:center;max-width:430px}.hero-content h1{margin:0 0 28px}}
 @media(max-width:520px){.hero-portrait{width:calc(100% - 12px);margin:0 12px 12px 0}.hero-portrait:before{inset:12px -12px -12px 12px}}
+
+/* About: a direct introduction and highlighted education. */
+.page-intro.about-intro{max-width:1020px;padding-bottom:48px}
+.page-intro.about-intro h1{font-size:clamp(27px,3.1vw,42px);line-height:1.35;letter-spacing:-.035em;margin:22px 0 0;font-weight:500}
+.education-card .education-degrees{background:#dbe7ff;color:#2856a8;border-radius:7px;padding:14px 16px;line-height:1.8}
+.education-degrees strong{font-weight:700}
+@media(max-width:520px){.page-intro.about-intro{padding-bottom:35px}.education-card .education-degrees{padding:12px;font-size:15px}}
